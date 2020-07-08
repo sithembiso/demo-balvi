@@ -6,6 +6,8 @@ testmodules = [
 
 suite = unittest.TestSuite()
 
+print("Test initialized....")
+
 for t in testmodules:
     try:
         # If the module defines a suite() function, call it to get the suite.
